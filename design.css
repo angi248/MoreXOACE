@@ -150,6 +150,7 @@ main {
   color: var(--muted);
   line-height: 1.7;
   max-width: 680px;
+  margin: 0 auto;
 }
 
 /* ── CARDS ── */
@@ -199,10 +200,11 @@ main {
   border-left: 3px solid var(--accent);
   border-radius: 0 4px 4px 0;
   padding: 1.2rem 1.5rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   font-size: 0.9rem;
   color: var(--text);
   line-height: 1.7;
+  max-width: 800px;
 }
 
 /* ── TWO COL ── */
@@ -263,12 +265,15 @@ main {
 /* ── START PAGE STEP CARDS ── */
 .steps-overview {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
   margin-top: 2.5rem;
-  justify-content: center;
-  text-align: center;
 }
+
+.steps-overview .step-card:last-child {
+  grid-column: 2 / 3;
+}
+
 .step-card {
   display: flex;
   flex-direction: column;
