@@ -260,6 +260,8 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.2rem;
   margin-top: 2.5rem;
+  justify-content: center;
+  text-align: center;
 }
 .step-card {
   display: flex;
