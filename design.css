@@ -29,7 +29,6 @@ header {
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
-  animation: fadeDown 0.7s ease both;
 }
 .header-left .label {
   font-size: 0.7rem;
