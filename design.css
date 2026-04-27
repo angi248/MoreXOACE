@@ -137,6 +137,8 @@ main {
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: 0.6rem;
+  display: block;
+  text-align: center;
 }
 .section-title {
   font-family: 'Playfair Display', serif;
@@ -159,8 +161,8 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.2rem;
   margin-top: 2rem;
-  justify-content: center;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card {
   background: var(--card);
@@ -208,7 +210,15 @@ main {
 }
 
 /* ── TWO COL ── */
-.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1.5rem; }
+.two-col { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
+  margin-top: 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .col-block h3 {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
