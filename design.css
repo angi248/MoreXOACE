@@ -144,6 +144,8 @@ main {
   color: var(--muted);
   line-height: 1.7;
   max-width: 680px;
+  justify-content: center;
+  text-align: center;
 }
 
 /* ── CARDS ── */
