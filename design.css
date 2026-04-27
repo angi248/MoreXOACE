@@ -124,7 +124,11 @@ main {
 }
 
 /* ── SECTION HEADER ── */
-.section-header { margin-bottom: 2.5rem; }
+.section-header { 
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  text-align: center;
+}
 .section-tag {
   font-size: 0.65rem;
   letter-spacing: 0.2em;
@@ -144,8 +148,6 @@ main {
   color: var(--muted);
   line-height: 1.7;
   max-width: 680px;
-  justify-content: center;
-  text-align: center;
 }
 
 /* ── CARDS ── */
