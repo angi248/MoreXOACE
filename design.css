@@ -156,6 +156,8 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.2rem;
   margin-top: 2rem;
+  justify-content: center;
+  text-align: center;
 }
 .card {
   background: var(--card);
