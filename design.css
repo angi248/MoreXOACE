@@ -45,12 +45,6 @@ header {
   color: #ffffff;
 }
 .header-left h1 span { color: rgba(255,255,255,0.72); }
-.header-meta {
-  text-align: right;
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.65);
-  line-height: 1.8;
-}
 
 /* ── NAVIGATION ── */
 nav.page-nav {
