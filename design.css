@@ -280,6 +280,20 @@ main {
 .step-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; flex: 1; }
 .step-link { display: inline-block; margin-top: 1.2rem; font-size: 0.8rem; color: var(--accent); font-weight: 500; }
 
+/* ── FOOTER ── */
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem 4rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1600px) {
   header, nav.page-nav, main { padding-left: 1.5rem; padding-right: 1.5rem; }
