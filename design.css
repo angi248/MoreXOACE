@@ -64,7 +64,6 @@ nav.page-nav {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(110,16,37,0.06);
-  animation: fadeDown 0.7s 0.1s ease both;
 }
 nav.page-nav::-webkit-scrollbar { display: none; }
 
@@ -288,7 +287,7 @@ main {
 .step-link { display: inline-block; margin-top: 1.2rem; font-size: 0.8rem; color: var(--accent); font-weight: 500; }
 
 /* ── RESPONSIVE ── */
-@media (max-width: 700px) {
+@media (max-width: 1600px) {
   header, nav.page-nav, main { padding-left: 1.5rem; padding-right: 1.5rem; }
   .two-col { grid-template-columns: 1fr; }
 }
