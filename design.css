@@ -49,6 +49,7 @@ header {
 /* ── NAVIGATION ── */
 nav.page-nav {
   display: flex;
+  justify-content: center;
   overflow-x: auto;
   padding: 0 4rem;
   border-bottom: 1px solid var(--border);
@@ -58,7 +59,6 @@ nav.page-nav {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(110,16,37,0.06);
-  align: center;
 }
 nav.page-nav::-webkit-scrollbar { display: none; }
 
