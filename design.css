@@ -99,7 +99,7 @@ nav.page-nav::-webkit-scrollbar { display: none; }
 
 /* ── MAIN ── */
 main {
-  padding: 3rem 4rem;
+  padding: 3rem 6vw;
   max-width: 100%;
   animation: fadeUp 0.4s ease both;
 }
