@@ -47,6 +47,11 @@ header {
 }
 .header-left h1 span { color: rgba(255,255,255,0.72); }
 
+header a h1:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
 /* ── NAVIGATION ── */
 nav.page-nav {
   display: flex;
