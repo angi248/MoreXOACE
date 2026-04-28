@@ -115,6 +115,24 @@ main {
   justify-content: center;
 }
 
+/* ── SHAKER ANIMATION ── */
+.shaker-container {
+  text-align: center;
+}
+
+.shaker-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.shaker-container p {
+  margin-top: 12px;
+  font-family: sans-serif;
+  color: #555;
+}
+
 /* ── ANIMATIONS ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(14px); }
