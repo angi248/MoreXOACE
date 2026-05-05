@@ -119,7 +119,7 @@ main {
 .shaker-wrapper {
   animation: tilt-rotate 4s ease-in-out infinite;
   transform-origin: center center;
-  width: 220px;
+  width: 440px;
   margin: 2rem auto;
 }
 
