@@ -115,22 +115,27 @@ main {
   justify-content: center;
 }
 
-/* ── SHAKER ANIMATION ── */
-.shaker-container {
-  text-align: center;
+/* ── SHAKER ── */
+.shaker-wrapper {
+  animation: tilt-rotate 4s ease-in-out infinite;
+  transform-origin: center center;
+  width: 220px;
+  margin: 2rem auto;
 }
 
-.shaker-container img {
-  width: 300px;
+.shaker-wrapper img {
+  width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  display: block;
+  filter: drop-shadow(0px 20px 40px rgba(110, 16, 37, 0.25));
 }
 
-.shaker-container p {
-  margin-top: 12px;
-  font-family: sans-serif;
-  color: #555;
+@keyframes tilt-rotate {
+  0%   { transform: rotate(-8deg) translateY(0px); }
+  25%  { transform: rotate(8deg) translateY(-10px); }
+  50%  { transform: rotate(-8deg) translateY(0px); }
+  75%  { transform: rotate(8deg) translateY(-10px); }
+  100% { transform: rotate(-8deg) translateY(0px); }
 }
 
 /* ── ANIMATIONS ── */
