@@ -28,8 +28,8 @@ header {
   background: var(--accent);
   display: flex;
   align-items: flex-end;
-  justify-content: left;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -52,22 +52,6 @@ header {
 header a h1:hover {
   opacity: 0.85;
   cursor: pointer;
-}
-
-/* ── HEADER FLEX (Text links, Bild rechts) ── */
-.header-flex {
-  padding: 3rem 4rem 2rem;
-  background: var(--accent);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.header-right img {
-  width: 90px;
-  height: auto;
-  filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.2));
 }
 
 /* ── NAVIGATION ── */
