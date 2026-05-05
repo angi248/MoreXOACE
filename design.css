@@ -28,8 +28,8 @@ header {
   background: var(--accent);
   display: flex;
   align-items: flex-end;
-  justify-content: center;
-  text-align:center;
+  justify-content: left;
+  text-align: left;
   gap: 2rem;
   flex-wrap: wrap;
 }
